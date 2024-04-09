@@ -15,14 +15,14 @@ export function Navbar() {
     },
     {
       name: "LinkedIn",
-      link: "/about",
+      link: "https://www.linkedin.com/in/jonschenkjr/",
       icon: (
         <IconBrandLinkedin className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
     },
     {
       name: "Github",
-      link: "/contact",
+      link: "https://github.com/jonschenk",
       icon: (
         <IconBrandGithub className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),

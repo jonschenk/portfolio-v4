@@ -18,6 +18,7 @@ export default function Home() {
       <AboutMe />
       <SectionDiv words="[GITHUB_STATUS]" />
       <GitHubStatus />
+      <SectionDiv words="[WORK_EXPERIENCE]" />
       <SectionDiv words="[PROJECTS]" />
       <Projects />
       <BackgroundBeams />
