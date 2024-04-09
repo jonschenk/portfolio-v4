@@ -1,15 +1,12 @@
 "use client";
 import React from "react";
 import { PinContainer } from "./ui/3d-pin";
-import { TextGenerateEffect } from "./ui/text-generate-effect";
 import "./Projects.css";
 
 export function Projects() {
   return (
     <div className="proj-main">
       <div className="projects h-screen">
-        <TextGenerateEffect words="[PROJECTS]" />
-        <hr className="border-white mb-8 w- m-auto" />
         <div className="projects-container">
           {/* Project 1 */}
           <a href="https://jonschenk.github.io/C-GoL/" target="_blank">

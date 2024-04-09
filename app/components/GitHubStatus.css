@@ -1,0 +1,53 @@
+.github-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#gh {
+    display: inline-block;
+}
+
+.github-main h1,
+.github-main p,
+.github-main a {
+    display:flex;
+    justify-content:center;
+    text-align: center;
+}
+
+.github-main h1 {
+    font-size: x-large;
+    font-weight: 400;
+    text-align: center;
+    text-align-last: center;
+}
+
+#status {
+    color: cyan;
+}
+
+.github-main a {
+    font-style: italic;
+    margin-bottom: 1%;
+    text-decoration: underline;
+    color: slategray;
+
+}
+
+.github-main p {
+    color: slategray;
+}
+
+.github-main h2 {
+    font-style: italic;
+    text-align: center;
+    text-align-last: center;
+    color: slategray;
+}
+
+#gh {
+    display: inline-block;
+}

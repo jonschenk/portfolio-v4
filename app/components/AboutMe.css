@@ -1,0 +1,22 @@
+.aboutme-container {
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+#aboutme-description {
+    font-family: monospace;
+    font-size: 1.33em;
+    text-align: justify;
+}
+
+#aboutme-highlight {
+    color: cyan;
+}
+
+@media screen and (max-width: 768px){
+    .aboutme-container {
+        width: 90%;
+        
+    }
+}
