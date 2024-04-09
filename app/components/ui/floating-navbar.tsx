@@ -1,7 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-
-const isMobile = window.innerWidth <= 768;
+import { Tooltip } from "react-tooltip";
 
 import {
   motion,
@@ -25,8 +24,14 @@ export const FloatingNav = ({
 }) => {
   const { scrollYProgress } = useScroll();
 
-  const [visible, setVisible] = useState(isMobile ? true : false);
+  const [visible, setVisible] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
+  useEffect(() => {
+    const isMobile = window.innerWidth <= 768;
+    setIsMobile(isMobile);
+    setVisible(isMobile);
+  }, []);
   useMotionValueEvent(scrollYProgress, "change", (current) => {
     if (typeof current === "number") {
       if (scrollYProgress.get() < 0.05 && !isMobile) {
@@ -67,12 +72,17 @@ export const FloatingNav = ({
             <span className="">{navItem.icon}</span>
           </Link>
         ))}
-        <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full hover:border-gradient-to-r hover:border-cyan-500 transition-all duration-500 ease-in-out">
-          <span className="font-light uppercase">
-            Download Resume &#128195;
-          </span>
-          <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-cyan-500 to-transparent h-px" />
-        </button>
+        <a
+          data-tooltip-id="resume-tooltip"
+          data-tooltip-content="This download link is always up to date because it pulls from Google Cloud."
+        >
+          <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full hover:border-gradient-to-r hover:border-cyan-500 transition-all duration-500 ease-in-out">
+            <span className="font-light uppercase">
+              Download Resume &#128195;
+            </span>
+            <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-cyan-500 to-transparent h-px" />
+          </button>
+        </a>
       </motion.div>
     </AnimatePresence>
   );

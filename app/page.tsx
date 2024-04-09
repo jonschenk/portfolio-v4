@@ -6,6 +6,7 @@ import { Navbar } from "./components/Navbar";
 import AboutMe from "./components/AboutMe";
 import GitHubStatus from "./components/GithubStatus";
 import SectionDiv from "./components/SectionDiv";
+import { WorkExperience } from "./components/WorkExperience";
 
 const Scene = dynamic(() => import("./components/Scene"), { ssr: false });
 
@@ -19,6 +20,7 @@ export default function Home() {
       <SectionDiv words="[GITHUB_STATUS]" />
       <GitHubStatus />
       <SectionDiv words="[WORK_EXPERIENCE]" />
+      <WorkExperience />
       <SectionDiv words="[PROJECTS]" />
       <Projects />
       <BackgroundBeams />

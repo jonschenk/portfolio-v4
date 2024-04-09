@@ -1,0 +1,23 @@
+.experience-container {
+    margin-top: -70px;
+    margin-bottom: -80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.work-card {
+    margin-left: 7%;
+    margin-right: 7%;
+    height: 420px;
+}
+
+
+@media (max-width: 768px) {
+    .experience-container {
+        flex-direction: column;
+        
+    }
+}
