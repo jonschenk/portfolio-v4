@@ -28,7 +28,6 @@ export default function Home() {
       <SectionDiv words="[CONTACT_ME]" />
       <Contact />
       <Footer />
-
       <BackgroundBeams />
     </main>
   );

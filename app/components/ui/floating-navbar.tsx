@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 const downloadResume = () => {
   const link = document.createElement("a");
   link.href = "./media/JONSCHENKJR_RESUME.pdf";
-  link.download = "JONSCHENKJR_RESUME.pdf";
+  link.target = "_blank";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
