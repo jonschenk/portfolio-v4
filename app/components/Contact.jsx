@@ -32,12 +32,12 @@ export const Contact = () => {
   };
 
   return (
-    <div className="contact-container font-mono text-white">
+    <div className="contact-container font-mono ">
       <form ref={form} onSubmit={sendEmail} id="contact-me">
         <input className = "" type="text" name="user_name" id="input-name" placeholder="name" />
         <input type="email" name="user_email" id="input-email" placeholder="email" />
         <textarea name="message" id="input-message" placeholder="message" />
-        <input type="submit" value="Send" id="send-email-button" />
+        <input type="submit"  id="send-email-button" value="send" />
       </form>
     </div>
   );
