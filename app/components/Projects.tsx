@@ -62,7 +62,7 @@ export function Projects() {
                     </span>
                   </span>
                 </div>
-                <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-pink-500 via-pink-500 to-cyan-500" />
+                <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-pink-500 via-pink-500 to-cyan-300" />
               </div>
             </PinContainer>
           </a>
@@ -85,7 +85,7 @@ export function Projects() {
                     Python
                   </span>
                 </div>
-                <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-yellow-500 via-sky-500 to-green-500" />
+                <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-yellow-500 via-red-500 to-blue-500" />
               </div>
             </PinContainer>
           </a>
@@ -112,7 +112,7 @@ export function Projects() {
                     Embeded Software
                   </span>
                 </div>
-                <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-red-500 via-purple-500 to-yellow-500" />
+                <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-sky-500 via-purple-500 to-sky-500" />
               </div>
             </PinContainer>
           </a>

@@ -7,6 +7,7 @@ import AboutMe from "./components/AboutMe";
 import GitHubStatus from "./components/GithubStatus";
 import SectionDiv from "./components/SectionDiv";
 import { WorkExperience } from "./components/WorkExperience";
+import Footer from "./components/Footer";
 
 const Scene = dynamic(() => import("./components/Scene"), { ssr: false });
 
@@ -23,6 +24,8 @@ export default function Home() {
       <WorkExperience />
       <SectionDiv words="[PROJECTS]" />
       <Projects />
+      <Footer />
+
       <BackgroundBeams />
     </main>
   );
