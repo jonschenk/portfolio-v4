@@ -1,0 +1,35 @@
+{
+  "pages": {
+    "/_not-found": [
+      "static/chunks/webpack-9eee94ca8ce993f2.js",
+      "static/chunks/fd9d1056-bd16bc68f2fc1d4b.js",
+      "static/chunks/69-4f0291e8b4ac5930.js",
+      "static/chunks/main-app-02101b1898d873a9.js",
+      "static/chunks/app/_not-found-a550d8532eb11e19.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-9eee94ca8ce993f2.js",
+      "static/chunks/fd9d1056-bd16bc68f2fc1d4b.js",
+      "static/chunks/69-4f0291e8b4ac5930.js",
+      "static/chunks/main-app-02101b1898d873a9.js",
+      "static/css/f8d21c8a52d24ae9.css",
+      "static/chunks/app/layout-83db468299a1bdff.js"
+    ],
+    "/AudioPlayer/page": [
+      "static/chunks/webpack-9eee94ca8ce993f2.js",
+      "static/chunks/fd9d1056-bd16bc68f2fc1d4b.js",
+      "static/chunks/69-4f0291e8b4ac5930.js",
+      "static/chunks/main-app-02101b1898d873a9.js",
+      "static/chunks/app/AudioPlayer/page-ad64bef57ca6a721.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-9eee94ca8ce993f2.js",
+      "static/chunks/fd9d1056-bd16bc68f2fc1d4b.js",
+      "static/chunks/69-4f0291e8b4ac5930.js",
+      "static/chunks/main-app-02101b1898d873a9.js",
+      "static/chunks/505-822443b0013f9779.js",
+      "static/css/2b51acb43ffda147.css",
+      "static/chunks/app/page-e23af2ea744bdff7.js"
+    ]
+  }
+}
