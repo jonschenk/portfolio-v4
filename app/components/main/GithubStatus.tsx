@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import "./GitHubStatus.css";
 import { IconBrandGithub } from "@tabler/icons-react";
-import { Meteors } from "./ui/meteors";
 
 function GitHubStatus() {
   const [gitHubStatus, setGitHubStatus] = useState<{
@@ -65,9 +64,6 @@ function GitHubStatus() {
           </a>
         </h2>
       </div>
-
-      {/* Meaty part - Meteor effect */}
-      <Meteors number={20} />
     </div>
   );
 }

@@ -1,16 +1,16 @@
 "use client";
 import dynamic from "next/dynamic";
-import { Projects } from "./components/Projects";
+import { Projects } from "./components/main/Projects";
 import { BackgroundBeams } from "./components/ui/background-beams";
-import { Navbar } from "./components/Navbar";
-import AboutMe from "./components/AboutMe";
-import GitHubStatus from "./components/GithubStatus";
-import SectionDiv from "./components/SectionDiv";
-import { WorkExperience } from "./components/WorkExperience";
-import Footer from "./components/Footer";
-import { Contact } from "./components/Contact";
+import { Navbar } from "./components/main/Navbar";
+import AboutMe from "./components/main/AboutMe";
+import GitHubStatus from "./components/main/GithubStatus";
+import SectionDiv from "./components/main/SectionDiv";
+import { WorkExperience } from "./components/main/WorkExperience";
+import Footer from "./components/main/Footer";
+import { Contact } from "./components/main/Contact";
 
-const Scene = dynamic(() => import("./components/Scene"), { ssr: false });
+const Scene = dynamic(() => import("./components/main/Scene"), { ssr: false });
 
 export default function Home() {
   return (

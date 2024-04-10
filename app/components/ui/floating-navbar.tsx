@@ -1,6 +1,14 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { Tooltip } from "react-tooltip";
+
+const downloadResume = () => {
+  const link = document.createElement("a");
+  link.href = "./media/JONSCHENKJR_RESUME.pdf";
+  link.download = "JONSCHENKJR_RESUME.pdf";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
 
 import {
   motion,
@@ -73,7 +81,10 @@ export const FloatingNav = ({
           </Link>
         ))}
 
-        <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full font-archivo-black hover:border-gradient-to-r hover:border-cyan-500 transition-all duration-500 font-light ease-in-out">
+        <button
+          className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full font-archivo-black hover:border-gradient-to-r hover:border-cyan-500 transition-all duration-500 font-light ease-in-out"
+          onClick={downloadResume}
+        >
           <span className="font-light uppercase">
             Download Resume &#128195;
           </span>

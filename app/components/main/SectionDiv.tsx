@@ -1,5 +1,5 @@
 import React from "react";
-import { TextGenerateEffect } from "./ui/text-generate-effect";
+import { TextGenerateEffect } from "../ui/text-generate-effect";
 import "./SectionDiv.css";
 
 interface SectionDivProps {
