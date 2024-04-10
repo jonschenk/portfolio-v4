@@ -14,7 +14,7 @@ const Scene = dynamic(() => import("./components/main/Scene"), { ssr: false });
 
 export default function Home() {
   return (
-    <main className="relative h-screen fade-in">
+    <main className="relative h-screen fade-in dark">
       <Navbar />
       <Scene />
       <SectionDiv words="[ABOUT_ME]" />
