@@ -9,10 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "@nextui-org/react": "^2.2.10",
     "@react-three/drei": "^9.105.2",
     "@react-three/fiber": "^8.16.1",
     "@tabler/icons-react": "^3.1.0",
+    "bootstrap": "^5.3.3",
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.25",
     "leva": "^0.9.35",
