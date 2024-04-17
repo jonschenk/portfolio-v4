@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import "./floating-navbar.css";
 
 const downloadResume = () => {
   const link = document.createElement("a");
@@ -73,7 +74,7 @@ export const FloatingNav = ({
             key={`link=${idx}`}
             href={navItem.link}
             className={cn(
-              "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500 font-archivo-black font-light"
+              "relative dark:text-neutral-50 yitems-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500 font-archivo-black font-light"
             )}
           >
             <span className="hidden md:block">{navItem.name}</span>
@@ -82,7 +83,7 @@ export const FloatingNav = ({
         ))}
 
         <button
-          className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full font-archivo-black hover:border-gradient-to-r hover:border-cyan-500 transition-all duration-500 font-light ease-in-out"
+          className="dl-resume border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full font-archivo-black transition-all duration-500 font-light ease-in-out"
           onClick={downloadResume}
         >
           <span className="font-light uppercase">

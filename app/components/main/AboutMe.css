@@ -17,6 +17,9 @@
 @media screen and (max-width: 768px){
     .aboutme-container {
         width: 90%;
-        
+    }
+
+    #aboutme-description {
+        text-align: center;
     }
 }

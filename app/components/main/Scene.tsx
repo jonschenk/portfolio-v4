@@ -1,16 +1,26 @@
 "use client";
-import React, { Suspense } from "react";
+import React, { Suspense, useState, CSSProperties } from "react";
+import RingLoader from "react-spinners/RingLoader";
 import { Canvas } from "@react-three/fiber";
 import { Html } from "@react-three/drei";
-import { Spinner } from "@nextui-org/react";
 import Model from "./Model";
 import { Environment } from "@react-three/drei";
 
 function Loader() {
+  let [loading, setLoading] = useState(true);
+  let [color, setColor] = useState("#ffffff");
+
   return (
     <Html fullscreen>
       <div className="h-screen flex items-center justify-center">
-        <Spinner size="lg" />
+        <div className="sweet-loading">
+          <RingLoader
+            color="#ffffff"
+            size={150}
+            aria-label="Loading Spinner"
+            data-testid="loader"
+          />
+        </div>
       </div>
     </Html>
   );
