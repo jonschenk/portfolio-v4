@@ -39,10 +39,10 @@ export default function AboutMe() {
           producing music, or diving into a new hobby.
           <br />
           <br />{" "}
-          <span id="internship-status">
+          {/* <span id="internship-status">
             I am currently seeking internships for{" "}
             <span id="aboutme-highlight">Summer 2024</span>.
-          </span>{" "}
+          </span>{" "} */}
         </p>
       </Reveal>
     </div>
