@@ -6,25 +6,89 @@ export function WorkExperience() {
   return (
     <div className="experience-container">
       <CardContainer className="inter-var">
-        <CardBody className="work-card bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border font-archivo-black uppercase ">
+        <CardBody className="work-card bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border font-archivo-black uppercase">
           <CardItem
             translateZ="60"
-            className="text-xl font-bold text-neutral-600 dark:text-white"
+            className="text-l font-bold text-neutral-600 dark:text-white"
           >
-            Quality Assurance Intern
+            Nine Peaks Solutions
           </CardItem>
           <CardItem
             as="p"
             translateZ="60"
-            className=" text-sm max-w-sm mt-2 uppercase"
+            className=" text-xs max-w-sm mt-2 uppercase"
           >
-            @ Tanoshi Kids Computers
+            Application Developer Intern
           </CardItem>
 
           <CardItem
             as="p"
             translateZ="40"
-            className="text-slate-500 text-xs max-w-sm mt-2 uppercase"
+            className="text-slate-500 text-xs max-w-sm mt-4 uppercase"
+          >
+            I recently just started my 2024 summer internship!
+            <br />
+            <br />
+            Stay tuned for updates.
+            <br />
+            <br />
+          </CardItem>
+
+          <br />
+          <hr className="border-t-[1px] border-slate-500 my-2" />
+          <div className="tags-container flex flex-wrap">
+            <CardItem
+              as="p"
+              translateZ="40"
+              className="text-slate-500 mt-2 text-xs border rounded-lg p-1 border-slate-500 mr-2 font-archivo-black"
+            >
+              Microsoft .NET (C#)
+            </CardItem>
+            <CardItem
+              as="p"
+              translateZ="40"
+              className="text-slate-500 mt-2 text-xs border rounded-lg p-1 border-slate-500 mr-2 font-archivo-black"
+            >
+              Microsoft SQL Server
+            </CardItem>
+            <CardItem
+              as="p"
+              translateZ="40"
+              className="text-slate-500 mt-2 text-xs border rounded-lg p-1 border-slate-500 mr-2 font-archivo-black"
+            >
+              SQL Server Report Services
+            </CardItem>
+            <CardItem
+              as="p"
+              translateZ="40"
+              className="text-slate-500 mt-2 text-xs border rounded-lg p-1 border-slate-500 mr-2 font-archivo-black"
+            >
+              Javascript
+            </CardItem>
+          </div>
+          <div className="flex justify-between items-center mt-20"></div>
+        </CardBody>
+      </CardContainer>
+      <CardContainer className="inter-var">
+        <CardBody className="work-card bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border font-archivo-black uppercase ">
+          <CardItem
+            translateZ="60"
+            className="text-l font-bold text-neutral-600 dark:text-white"
+          >
+            Tanoshi Kids Computers
+          </CardItem>
+          <CardItem
+            as="p"
+            translateZ="60"
+            className=" text-xs max-w-sm mt-2 uppercase"
+          >
+            Quality Assurance Intern
+          </CardItem>
+
+          <CardItem
+            as="p"
+            translateZ="40"
+            className="text-slate-500 text-xs max-w-sm mt-4 uppercase"
           >
             Performed quality assurance testing and researched software design
             to enhance product integrity
@@ -61,7 +125,7 @@ export function WorkExperience() {
               Google Cloud API
             </CardItem>
           </div>
-          <div className="flex justify-between items-center mt-20"></div>
+          <div className="flex justify-between items-center mt-11"></div>
         </CardBody>
       </CardContainer>
 
@@ -69,22 +133,22 @@ export function WorkExperience() {
         <CardBody className="work-card bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border font-archivo-black uppercase ">
           <CardItem
             translateZ="60"
-            className="text-xl font-bold text-neutral-400 dark:text-white"
+            className="text-l font-bold text-neutral-400 dark:text-white"
           >
-            Programming Lab Aide
+            George Fox University
           </CardItem>
           <CardItem
             as="p"
             translateZ="60"
-            className=" text-sm max-w-sm mt-2 uppercase"
+            className=" text-xs max-w-sm mt-2 uppercase"
           >
-            @ George Fox University
+            Programming Lab Aide
           </CardItem>
 
           <CardItem
             as="p"
             translateZ="40"
-            className="text-slate-500 text-xs max-w-sm mt-2 uppercase"
+            className="text-slate-500 text-xs max-w-sm mt-4 uppercase"
           >
             Tutoring over 70 students, empowering them to bolster their coding
             skills and surmount technical obstacles

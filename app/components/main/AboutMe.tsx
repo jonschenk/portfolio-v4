@@ -31,17 +31,17 @@ export default function AboutMe() {
           I'm a <span id="aboutme-highlight">{Age()}</span> year old student
           attending <span id="aboutme-highlight">George Fox University</span>{" "}
           and studying
-          <span id="aboutme-highlight"> Computer Science</span>. It's currently
-          my Junior year. I'm passionate about software development and I'm
-          always looking for new opportunities to learn and grow. When I'm not
-          making cool things with code, you can find me working out, playing
-          guitar, ukulele, piano, bass, drums, or some other random instrument,
-          producing music, or diving into a new hobby.
+          <span id="aboutme-highlight"> Computer Science</span>. I'm going into
+          my Senior year this Fall. I'm passionate about software development
+          and I'm always looking for new opportunities to learn and grow. When
+          I'm not making cool things with code, you can find me working out,
+          playing guitar, ukulele, piano, bass, drums, or some other random
+          instrument, producing music, or diving into a new hobby.
           <br />
           <br />{" "}
           {/* <span id="internship-status">
             I am currently seeking internships for{" "}
-            <span id="aboutme-highlight">Summer 2024</span>.
+            <span id="aboutme-highlight">Summer 2025</span>.
           </span>{" "} */}
         </p>
       </Reveal>
