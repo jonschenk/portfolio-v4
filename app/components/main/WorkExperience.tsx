@@ -18,7 +18,7 @@ export function WorkExperience() {
             translateZ="60"
             className=" text-xs max-w-sm mt-2 uppercase"
           >
-            Application Developer Intern
+            Software Engineer Intern
           </CardItem>
 
           <CardItem
@@ -26,11 +26,9 @@ export function WorkExperience() {
             translateZ="40"
             className="text-slate-500 text-xs max-w-sm mt-4 uppercase"
           >
-            I recently just started my 2024 summer internship!
-            <br />
-            <br />
-            Stay tuned for updates.
-            <br />
+            Developed software utility using .NET framework and C#, optimizing tasks within the company<br /><br />
+            Increased productivity by over 200% using Python script automation to replace monotonous tasks<br /><br />
+            Entrusted with sensitive data and managed file systems with over 100,000 documents
             <br />
           </CardItem>
 
@@ -49,14 +47,14 @@ export function WorkExperience() {
               translateZ="40"
               className="text-slate-500 mt-2 text-xs border rounded-lg p-1 border-slate-500 mr-2 font-archivo-black"
             >
-              Microsoft SQL Server
+              Python
             </CardItem>
             <CardItem
               as="p"
               translateZ="40"
               className="text-slate-500 mt-2 text-xs border rounded-lg p-1 border-slate-500 mr-2 font-archivo-black"
             >
-              SQL Server Report Services
+              Document Management Systems
             </CardItem>
             <CardItem
               as="p"
@@ -82,7 +80,7 @@ export function WorkExperience() {
             translateZ="60"
             className=" text-xs max-w-sm mt-2 uppercase"
           >
-            Quality Assurance Intern
+            Software Engineer Intern
           </CardItem>
 
           <CardItem

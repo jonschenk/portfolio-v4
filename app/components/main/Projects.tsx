@@ -7,6 +7,32 @@ export function Projects() {
   return (
     <div className="projects-container">
       {/* Project 1 */}
+      <a href="https://github.com/jonschenk/VALORANT-Store-Checker" target="_blank">
+        <PinContainer
+          title="github.com/jonschenk/VALORANT-Store-Checker"
+          href="https://github.com/jonschenk/VALORANT-Store-Checker"
+        >
+          <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+            <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100 font-archivo-black uppercase">
+                VALORANT Store Checker
+            </h3>
+            <div className="text-base !m-0 !p-0 font-normal">
+              <span className="text-slate-500 font-archivo-black">
+                Checks the VALORANT store using REST APIs and emails the user whenever there is an update.
+              </span>
+              <hr className="border-t-[1px] border-slate-500 my-2" />
+              <span className="text-slate-500 text-xs border rounded-lg p-1 border-slate-500 mr-2 font-archivo-black">
+                Python
+              </span>
+              <span className="text-slate-500 text-xs border rounded-lg p-1 border-slate-500 mr-2 font-archivo-black">
+                REST API
+              </span>
+            </div>
+            <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-slate-400 via-slate-500 to-red-500" />
+          </div>
+        </PinContainer>
+      </a>
+
       <a href="https://jonschenk.github.io/C-GoL/" target="_blank">
         <PinContainer
           title="jonschenk.github.io/C-GoL"
